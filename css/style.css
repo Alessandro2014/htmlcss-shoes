@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+main > section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+section > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(230, 241, 76);
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    height: 600px;
+    width: 600px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.sneaker {
+    background-image: url("../img/sea.jpg");
+}
+
+.tommy {
+    background-image: url("../img/garden.jpg");
+}
+
+.converse {
+    background-image: url("../img/road.jpg");
+}
+
