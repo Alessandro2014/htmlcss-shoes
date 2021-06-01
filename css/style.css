@@ -18,12 +18,16 @@ main > section {
     list-style-type: none;
     position: fixed;
     top: 0;
-    right: 30px;
+    right: 100px;
     padding: 20px;
     background-color: lawngreen;
     z-index: 1;
     margin: 20px;
     border-radius: 50%;
+}
+
+a {
+    
 }
 
 section::before {
